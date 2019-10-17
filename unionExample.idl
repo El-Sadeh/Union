@@ -1,0 +1,13 @@
+union PrimitiveUnion 
+switch (long){ 
+	case 1: 
+		double dbl;
+	case 2:
+		float flt;
+	default: 
+		long lng; 
+};
+
+struct myStruct{
+	PrimitiveUnion theUnion;
+};
